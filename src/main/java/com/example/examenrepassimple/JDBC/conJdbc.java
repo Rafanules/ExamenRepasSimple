@@ -13,6 +13,14 @@ public class conJdbc {
     public static void main(String[] args) {
         try{
 
+
+
+
+
+
+
+
+
             Connection conexio = null;
             ResultSet resultat = null;
 
@@ -28,6 +36,7 @@ public class conJdbc {
             while(resultat.next()){//mientras si no hay mas datos false
                 String nif = resultat.getString("Nif");
                 Double salari = resultat.getDouble("Salari");
+
 
 
                 System.out.println("consulta 1");
