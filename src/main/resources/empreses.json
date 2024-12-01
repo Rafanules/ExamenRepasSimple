@@ -1,0 +1,15 @@
+  {
+    "empresa": {
+      "nom": "La mazmorra del Androide",
+      "empleats": [
+        {
+          "nom": "Jaume",
+          "edat": 30
+        },
+        {
+          "nom": "Bel",
+          "edat": 28
+        }
+      ]
+    }
+  }
