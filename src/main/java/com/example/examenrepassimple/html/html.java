@@ -7,6 +7,7 @@ public class html {
 
     public static void main(String[] args) {
 
+    try{
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Introdueix el títol de la pàgina: ");
@@ -17,8 +18,6 @@ public class html {
 
         System.out.println("Introdueix el contingut del paràgraf");
         String paragraf = sc.nextLine();
-
-        try{
 
             PrintWriter writer = new PrintWriter("Generar.xml", "UTF-8");
 
